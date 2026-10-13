@@ -1,0 +1,95 @@
+{
+  "blender": "5.2.0 LTS",
+  "model_viewer": "4.1.0",
+  "triangles": 9064,
+  "mesh_count": 45,
+  "materials": [
+    "Acero",
+    "Bronce",
+    "Madera"
+  ],
+  "glb_bytes": 2324408,
+  "glb_MB_decimal": 2.324,
+  "blend_bytes": 1452703,
+  "texture_resolution": [
+    512,
+    512
+  ],
+  "original_png_count": 20,
+  "textures_total_bytes": 1960788,
+  "embedded_images": [
+    {
+      "name": "Acero_Normal",
+      "resolution": [
+        512,
+        512
+      ],
+      "bytes": 95629
+    },
+    {
+      "name": "Acero_BaseColor",
+      "resolution": [
+        512,
+        512
+      ],
+      "bytes": 235359
+    },
+    {
+      "name": "Acero_Metallic-Acero_Roughness",
+      "resolution": [
+        512,
+        512
+      ],
+      "bytes": 204537
+    },
+    {
+      "name": "Bronce_Normal",
+      "resolution": [
+        512,
+        512
+      ],
+      "bytes": 196011
+    },
+    {
+      "name": "Bronce_BaseColor",
+      "resolution": [
+        512,
+        512
+      ],
+      "bytes": 216047
+    },
+    {
+      "name": "Bronce_Metallic-Bronce_Roughness",
+      "resolution": [
+        512,
+        512
+      ],
+      "bytes": 238188
+    },
+    {
+      "name": "Madera_limpia_Normal",
+      "resolution": [
+        512,
+        512
+      ],
+      "bytes": 85628
+    },
+    {
+      "name": "Madera_limpia_BaseColor",
+      "resolution": [
+        512,
+        512
+      ],
+      "bytes": 80967
+    },
+    {
+      "name": "Madera_limpia_Metallic-Madera_limpia_Roughness",
+      "resolution": [
+        512,
+        512
+      ],
+      "bytes": 96403
+    }
+  ],
+  "compression": "None"
+}

@@ -1,0 +1,18 @@
+{
+  "source_objects": 45,
+  "source_materials": [
+    "Acero",
+    "Bronce",
+    "Madera"
+  ],
+  "nonmanifold_edges": 0,
+  "degenerate_faces": 0,
+  "missing_uvs": 0,
+  "nonunit_scales": 0,
+  "reimported_materials": [
+    "Acero",
+    "Bronce",
+    "Madera"
+  ],
+  "reimported_objects": 45
+}
