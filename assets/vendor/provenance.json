@@ -1,0 +1,32 @@
+[
+  {
+    "file": "model-viewer-4.1.0.min.js",
+    "url": "https://unpkg.com/@google/model-viewer@4.1.0/dist/model-viewer.min.js",
+    "bytes": 979139,
+    "sha256": "8367184a607fbe07a78b650c0d359e5ebbd96f7e2b22f95f761f559b63430386"
+  },
+  {
+    "file": "model-viewer-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/google/model-viewer/v4.1.0/LICENSE",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "file": "three-LICENSE.txt",
+    "url": "https://unpkg.com/three@0.174.0/LICENSE",
+    "bytes": 1081,
+    "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+  },
+  {
+    "file": "lit-LICENSE.txt",
+    "url": "https://unpkg.com/lit@3.2.1/LICENSE",
+    "bytes": 1517,
+    "sha256": "45d31799d0db956cc3eb5469346abbd9b7025babc5ff29fab10d7095da992ef1"
+  },
+  {
+    "file": "gainmap-LICENSE.txt",
+    "url": "https://unpkg.com/@monogrid/gainmap-js@3.1.0/LICENSE",
+    "bytes": 1065,
+    "sha256": "7fb8f722609c6669a9c9a4865e2a86205c7760e7dc7a039b0fb9913c3e62c6cc"
+  }
+]

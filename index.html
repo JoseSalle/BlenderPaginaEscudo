@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Vigilia: un escudo medieval original. Explora su modelo 3D y transforma madera, acero y bronce en tiempo real.">
+  <meta name="theme-color" content="#eae8e2">
+  <title>Vigilia — estudio de un escudo</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="wordmark" href="./" aria-label="Vigilia, inicio"><svg viewBox="0 0 32 36" aria-hidden="true"><path d="M3 3h26v15c-2 7-8 11-13 15C11 29 5 25 3 18Z"/><path d="m16 8 3 8 6 2-6 2-3 8-3-8-6-2 6-2Z"/></svg> VIGILIA<span>ESTUDIO DE MATERIALES</span></a>
+    <a class="repo-link" href="https://github.com/JoseSalle/BlenderPaginaEscudo" target="_blank" rel="noopener">Ver proyecto <span aria-hidden="true">↗</span></a>
+  </header>
+  <main>
+    <section class="exhibit" aria-labelledby="title">
+      <div class="intro"><span class="eyebrow">OBJETO 001 / MEDIEVAL</span><h1 id="title">Hecho para<br>resistir.</h1><p>Roble, acero y bronce.<br>Un escudo, tres formas de contar el tiempo.</p></div>
+      <div class="stage" id="stage" aria-busy="true">
+        <span class="stage-label">VIGILIA / ESCUDO DE GUARDIA</span>
+        <span class="stage-index" aria-hidden="true">01</span>
+        <model-viewer id="shield" src="assets/models/escudo_vigilia.glb" alt="Escudo medieval curvado, con siete tablones oscuros, marco de acero y rosa geométrica de bronce. Gíralo para ver los refuerzos y el agarre trasero." camera-controls touch-action="pan-y" camera-orbit="-17deg 83deg 2.3m" camera-target="0m 0m 0m" field-of-view="32deg" min-camera-orbit="auto 15deg 1.3m" max-camera-orbit="auto 165deg 3.5m" environment-image="neutral" exposure="1.25" shadow-intensity="0.5" shadow-softness="1" interaction-prompt="none" loading="eager">
+          <div slot="progress-bar" class="loading" id="loading"><span class="loading-dot"></span><span id="loading-text">Preparando el escudo…</span></div>
+        </model-viewer>
+        <div class="viewer-error" id="viewer-error" role="alert" hidden></div>
+        <div class="stage-bottom"><span><i aria-hidden="true"></i> EXPLORACIÓN 3D</span><span>Arrastra para girar · Desliza o pellizca para acercar</span></div>
+      </div>
+      <aside class="workbench" aria-labelledby="materials-title">
+        <div class="workbench-heading"><span class="eyebrow">EL PASO DEL TIEMPO</span><h2 id="materials-title">La materia cambia.</h2><p>Explora cada acabado. Combínalos y observa cómo responde la superficie a la luz.</p></div>
+        <div class="material-control">
+          <div class="material-heading"><span class="material-number">01</span><h3>Madera</h3><span class="material-type">ROBLE</span></div>
+          <p>Vetas profundas, huellas de uso.<br> De la madera cuidada a la intemperie.</p>
+          <button id="wood-toggle" type="button" aria-pressed="false" disabled><span class="swatch wood" aria-hidden="true"></span><span class="button-copy"><span>Madera limpia / desgastada</span><strong id="wood-state">Limpia</strong></span><span class="toggle-mark" aria-hidden="true">↔</span></button>
+        </div>
+        <div class="material-control">
+          <div class="material-heading"><span class="material-number">02</span><h3>Acero</h3><span class="material-type">ESTRUCTURA</span></div>
+          <p>Un marco que protege.<br> Dos tonos, el mismo carácter metálico.</p>
+          <button id="steel-toggle" type="button" aria-pressed="false" disabled><span class="swatch steel" aria-hidden="true"></span><span class="button-copy"><span>Cambiar tono del acero</span><strong id="steel-state">Gris</strong></span><span class="toggle-mark" aria-hidden="true">↔</span></button>
+        </div>
+        <div class="material-control">
+          <div class="material-heading"><span class="material-number">03</span><h3>Bronce</h3><span class="material-type">EMBLEMA</span></div>
+          <p>Una rosa de ocho puntas.<br> Activa el relieve de su superficie.</p>
+          <button id="bronze-toggle" type="button" aria-pressed="true" disabled><span class="swatch bronze" aria-hidden="true"></span><span class="button-copy"><span>Relieve del bronce</span><strong id="bronze-state">Activado</strong></span><span class="toggle-mark" aria-hidden="true">↔</span></button>
+        </div>
+        <p class="live-status" id="status" role="status" aria-live="polite">Cargando modelo y materiales…</p>
+      </aside>
+    </section>
+    <section class="object-notes" aria-label="Acerca de la pieza"><div><span class="eyebrow">DISEÑO ORIGINAL</span><h2>La rosa de la vigilia.</h2></div><p>Siete tablones unidos bajo un marco continuo. Un emblema que señala los cuatro rumbos y sus intermedios. En el reverso, dos travesaños y un puño completan una pieza pensada desde todos sus ángulos.</p><div class="note-detail"><span>MODELO A ESCALA</span><strong>1,15 m</strong><span>Altura aproximada</span></div></section>
+  </main>
+  <footer><span>VIGILIA <span class="footer-dot">·</span> Un estudio de forma y superficie</span><a href="source/escudo_vigilia.blend" download>Descargar archivo Blender <span aria-hidden="true">↓</span></a><span>BLENDER + MODEL-VIEWER</span></footer>
+  <noscript><p class="noscript">Activa JavaScript para explorar el escudo y sus materiales. Puedes descargar el archivo Blender con el enlace al pie.</p></noscript>
+</body>
+</html>
