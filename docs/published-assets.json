@@ -1,0 +1,41 @@
+{
+  "url": "https://josesalle.github.io/BlenderPaginaEscudo/",
+  "assets": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 5588,
+      "matches_local": true
+    },
+    {
+      "path": "assets/models/escudo_vigilia.glb",
+      "status": 200,
+      "bytes": 2324408,
+      "matches_local": true
+    },
+    {
+      "path": "source/escudo_vigilia.blend",
+      "status": 200,
+      "bytes": 1452703,
+      "matches_local": true
+    },
+    {
+      "path": "assets/textures/Madera_desgastada_BaseColor.png",
+      "status": 200,
+      "bytes": 122342,
+      "matches_local": true
+    },
+    {
+      "path": "assets/textures/Madera_desgastada_ORM.png",
+      "status": 200,
+      "bytes": 73009,
+      "matches_local": true
+    },
+    {
+      "path": "assets/textures/Madera_desgastada_Normal.png",
+      "status": 200,
+      "bytes": 136707,
+      "matches_local": true
+    }
+  ]
+}

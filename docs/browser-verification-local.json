@@ -1,0 +1,17 @@
+{
+  "url": "http://127.0.0.1:8766/",
+  "passed": true,
+  "material_state_checks": 27,
+  "combinations": 8,
+  "repetitions": 3,
+  "keyboard": true,
+  "widths": [
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "load_error_handling": true,
+  "console_errors": [],
+  "browser": "155.0.8059.40"
+}
